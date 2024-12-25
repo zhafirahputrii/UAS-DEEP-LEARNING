@@ -16,3 +16,13 @@ Model yang digunakan adalah Long Short Term Memory (LSTM)
 
 # GRAFIK PELATIHAN
 ![image](https://github.com/user-attachments/assets/662bb2e8-5e3c-4e59-b370-97b936bdd6ca)
+
+# HASIL TES CHATBOT LAYANAN PEMINJAMAN FASILITAS UNIVERSITAS BENGKULU
+![image](https://github.com/user-attachments/assets/e61ffd17-3c29-4853-b7fe-cc0125d48af2)
+![image](https://github.com/user-attachments/assets/56b407af-618d-4846-bd06-5e7e76ff2f8b)
+
+# KESIMPULAN
+Dari pengujian model LSTM dalam membangun ChatBot layanan pinjaman fasilitas di Universitas Bengkulu dapat disimpulkan bahwa model mendapatkan akurasi yang cukup bagus yaitu dengan rata – rata akurasi sebesar 0.9893. Nilai loss pada model menunjukkan angka yang terbilang kecil yaitu sebesar 0.0448. Dengan ini, Proyek kali ini berhasil menghasilkan ChatBot yang dapat memberikan respon otomatis terhadap pertanyaan mahasiswa terkait peminjaman fasilitas di Universitas Bengkulu.
+
+# Analisa Bagaimana Model Dapat Dikatakan Sebagai Deep Learning dan Bukan Shallow Learn
+Model yang dibuat untuk ChatBot “Generasi Unib” merupakan model Deep Learning dan bukan Shallow Learn, karena model ini menggunakan arsitektur multi lapisan yang dapat memproses data kompleks. Terdapat layer LSTM dan Embedding yang merupakan ciri khas Deep learning. Model LSTM ini juga mempunyai banyak lapisan seperti input, embedding, flatten, maupun dense. Model dalam ChatBot “Generasi Unib” dibangun menggunakan TensorFlow Keras. Sedankan Shallow Learn adalah metode yang hanya menggunakan satu atau dua lapisan dan hanya dapat menangkap pola yang sederhana dalam data.

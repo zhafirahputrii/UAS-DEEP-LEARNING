@@ -1,0 +1,217 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "assalamualaikum",
+                "hallo",
+                "hai",
+                "hi",
+                "halo",
+                "selamat pagi",
+                "pagi",
+                "siang",
+                "sore",
+                "malam",
+                "selamat siang",
+                "selamat sore",
+                "selamat malam"
+            ],
+            "responses": [
+                "Selamat datang Generasi Unib. Kami hadir untuk Anda! Mau tahu cara memanfaatkan fasilitas Universitas Bengkulu dengan mudah? Silakan pilih fasilitas yang ingin Anda pinjam:\n1. Peminjaman Gedung\n2. Peminjaman Lapangan\n3. Peminjaman Barang\n4. Informasi Umum\n\nKetik angka atau nama kategori untuk melanjutkan.",
+                "Yuk, sampaikan saja kebutuhan Anda! Silakan pilih fasilitas yang ingin Anda pinjam:\n1. Peminjaman Gedung\n2. Peminjaman Lapangan\n3. Peminjaman Barang\n4. Informasi Umum\n\nKetik angka atau nama kategori untuk melanjutkan."
+            ]
+        },
+        {
+            "tag": "peminjaman_gedung",
+            "patterns": [
+                "peminjaman gedung", "saya ingin meminjam gedung", "bagaimana jika saya meminjam gedung",
+            "1"
+            ],
+            "responses": [
+                "Berikut adalah gedung yang bisa Anda pinjam di Universitas Bengkulu:\n- Gedung Serbaguna (GSG): Untuk acara besar seperti seminar atau wisuda.\n- Ruang Kuliah: Untuk kegiatan belajar atau diskusi.\n- Aula Fakultas: Untuk acara tingkat fakultas.\n\nPastikan Anda menghubungi pihak administrasi universitas atau fakultas terkait untuk proses peminjaman dan ketersediaan."
+            ]
+        },
+        {
+            "tag": "peminjaman_gedung1",
+            "patterns": [
+                "GSG", "saya ingin meminjam gedung serbaguna", "bagaimana jika saya meminjam gedung serbaguna",
+            "gedung serbaguna"
+            ],
+            "responses": [
+                "Untuk syarat peminjaman, silakan membawa:\n1. Kartu Tanda Mahasiswa (KTM).\n2. Surat Resmi Peminjaman. \n3. Surat Izin Kegiatan"
+            ]
+        },
+        {
+            "tag": "peminjaman_gedung2",
+            "patterns": [
+                "Ruang kuliah", "saya ingin meminjam ruang kuliah", "bagaimana jika saya meminjam ruang kuliah",
+            "ruang kelas", "kelas", "kelas kuliah"
+            ],
+            "responses": [
+                "Untuk syarat peminjaman, silakan membawa:\n1. Kartu Tanda Mahasiswa (KTM).\n2. Surat Resmi Peminjaman."
+            ]
+        },
+        {
+            "tag": "peminjaman_gedung3",
+            "patterns": [
+                "Aula Fakultas", "saya ingin meminjam aula", "bagaimana jika saya meminjam aula fakultas",
+            "aula"
+            ],
+            "responses": [
+                "Untuk syarat peminjaman, silakan membawa:\n1. Kartu Tanda Mahasiswa (KTM).\n2. Surat Resmi Peminjaman. \n3. Surat Izin Kegiatan"
+            ]
+        },
+        {
+        "tag": "peminjaman_lapangan",
+            "patterns": [
+                "peminjaman lapangan",
+            "2"
+            ],
+            "responses": [
+                "Berikut adalah lapangan yang bisa Anda pinjam di Universitas Bengkulu:\n- Lapangan Stadion Universitas Bengkulu.\n- Lapangan Gor Universitas Bengkulu."
+            ]
+        },
+        {
+            "tag": "peminjaman_lapangan1",
+                "patterns": [
+                    "stadion", "lapangan stadion",
+                "stadion unib"
+                ],
+                "responses": [
+                    "Untuk syarat peminjaman, silakan membawa:\n1. Kartu Tanda Mahasiswa (KTM).\n2. Surat Resmi Peminjaman.\n3. Surat Izin Kegiatan"
+                ]
+            },
+            {
+                "tag": "peminjaman_lapangan1",
+                    "patterns": [
+                        "GOR", "lapangan Gor",
+                    "gor unib"
+                    ],
+                    "responses": [
+                        "Untuk syarat peminjaman, silakan membawa:\n1. Kartu Tanda Mahasiswa (KTM).\n2. Surat Resmi Peminjaman.\n3. Surat Izin Kegiatan"
+                    ]
+                },
+
+    {
+        "tag": "peminjaman_barang",
+        "patterns": [
+            "peminjaman barang",
+        "3"
+        ],
+        "responses": [
+            "Berikut adalah barang yang bisa Anda pinjam di Universitas Bengkulu:\n- Peralatan Multimedia Proyektor.\n- Peralatan Multimedia Speaker.\n- Peralatan Multimedia Camera. \n- Peralatan Multimedia HT. "
+        ]
+    },
+    {
+        "tag": "peminjaman_barang1",
+        "patterns": [
+            "proyektor", "multimedia", "multimedia proyektor"
+        ],
+        "responses": [
+            "Untuk syarat peminjaman, silakan membawa Kartu Tanda Mahasiswa (KTM). "
+        ]
+    },
+    {
+        "tag": "peminjaman_barang2",
+        "patterns": [
+            "speaker", "pengeras suara", "multimedia speaker"
+        ],
+        "responses": [
+            "Untuk syarat peminjaman, silakan membawa Kartu Tanda Mahasiswa (KTM). "
+        ]
+    },
+    {
+        "tag": "peminjaman_barang3",
+        "patterns": [
+            "Camera", "kamera", "multimedia kamera"
+        ],
+        "responses": [
+            "Untuk syarat peminjaman, silakan membawa Kartu Tanda Mahasiswa (KTM). "
+        ]
+    },
+    {
+        "tag": "peminjaman_barang4",
+        "patterns": [
+            "HT",  "multimedia HT"
+        ],
+        "responses": [
+            "Untuk syarat peminjaman, silakan membawa Kartu Tanda Mahasiswa (KTM). "
+        ]
+    },
+        {
+            "tag": "informasi_umum",
+            "patterns": [
+                "Informasi Umum",
+                "4"
+            ],
+            "responses": [
+                "Informasi apa yang Anda butuhkan? Berikut beberapa pilihan:\n- Kontak Penting\n- Syarat Peminjaman"
+            ]
+        },
+      
+        {
+            "tag": "kontak_penting",
+            "patterns": [
+                "nomor penting universitas",
+                "kontak Universitas Bengkulu",
+                "ada nomor darurat?",
+                "Kontak Penting"
+            ],
+            "responses": [
+                "Berikut adalah daftar kontak penting Universitas Bengkulu:\n- Rektorat: (0736) 123456\n- Perpustakaan: (0736) 654321\n- Keamanan: (0736) 987654\n\nSilakan hubungi nomor terkait sesuai kebutuhan Anda."
+            ]
+        },
+        {
+            "tag": "syarat_peminjaman",
+            "patterns": [
+                "Syarat Peminjaman?",
+                "Apa aja yang perlu dibawa?"
+                
+            ],
+            "responses": [
+                "Untuk syarat peminjaman, silakan membawa:\n1. Kartu Tanda Mahasiswa (KTM).\n2. Surat Resmi Peminjaman."
+            ]
+        },
+        {
+            "tag": "ucapan_terima_kasih",
+            "patterns": [
+                "terima kasih",
+                "makasih ya",
+                "thanks",
+                "terima kasih banyak"
+            ],
+            "responses": [
+                "Sama-sama! Jika ada hal lain yang bisa kami bantu, jangan ragu untuk bertanya.",
+                "Terima kasih kembali! Semoga informasi ini bermanfaat."
+            ]
+        },
+        {
+            "tag": "default",
+            "patterns": [
+                "",
+                "saya tidak tahu",
+                "pertanyaan lain"
+            ],
+            "responses": [
+                "Mohon maaf, saya kurang memahami permintaan Anda. Silakan pilih salah satu kategori atau tanyakan informasi lebih spesifik."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Terima kasih",
+                "selesai",
+                "oke",
+                "thankyou",
+                "stop",
+                "ok",
+                "bye"
+            ],
+            "responses": [
+                "Terima kasih telah berbincang dengan sahabatunib. Sampai jumpa! \ud83d\ude0a",
+                "Semoga harimu menyenankan! Sampai jumpa!",
+                "Terima kasih sudah bertanya, semoga bermanfaat! \ud83d\ude0a"
+            ]
+        }
+    ]
+}
